@@ -18,4 +18,4 @@ def find_max(numbers):
 
 maximum = find_max(numbers)
 
-print(f"მაქსიმალური რიცხვია: {maximum}")
+print(f"თქვენი შეტანილი რიცხვებიდან: {numbers}, მაქსიმალურია : {maximum}.")
