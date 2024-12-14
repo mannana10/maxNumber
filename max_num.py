@@ -1,8 +1,19 @@
 
-numbers = [1,2,3,4,5,6,7,8,9,10]   
+numbers = []  
+
+while True:
+    num = input("\nშეიტანეთ რიცხვი: ")
+    if num =="გასვლა":
+         break
+    elif num.isdigit():
+        numbers.append(num)
+    else:
+        print("გთხოვთ შეიტანოთ რიცხვი!")
+        continue
+
 def find_max(numbers):
     return max(numbers)
 
 maximum = find_max(numbers)
 
-print(f"მაქსიმალური რიცხვია- {maximum}")
+print(f"მაქსიმალური რიცხვია: {maximum}")
