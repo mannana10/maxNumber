@@ -4,7 +4,7 @@ print("მითხარი რიცხვები და მათ შორ
 
 while True:
     num = input("\nშეიტანეთ რიცხვი: ")
-    if num.lower() == "გასვლა":
+    if num == "გასვლა":
         break
     try:
         number = float(num)
